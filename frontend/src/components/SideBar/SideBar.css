@@ -1,0 +1,58 @@
+.contacts {
+  position: absolute;
+  background-color: #282e33;
+
+  margin-left: 85px;
+  width: 180px;
+
+  height: 100vh !important;
+  z-index: 90;
+}
+.contact {
+  background-color: #18191d;
+  float: left;
+  width: 85px;
+  height: 100vh !important;
+  z-index: 90;
+}
+.contact-link {
+  text-decoration: none;
+}
+.contact-lists {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: 282e33;
+  margin: 13px 0px;
+  padding: 13px;
+}
+.contact-lists:hover {
+  border: none;
+  background-color: #353c43;
+  transition: 0.3s;
+}
+.menu-list {
+  list-style: none;
+  padding: 0;
+}
+.post-icon {
+  margin: 9px;
+  padding: 2px 0px;
+}
+.logout-box{
+  margin-top: 60vh;
+  padding: 8px 5px;
+}
+.logout-box:hover{
+  background-color:  #353c43;
+
+}
+.logout{
+  text-decoration: none;
+  color: #25DBCA;
+  margin-top: 75vh;
+}
+.my-profile{
+  height: 90px;
+  background-color: #000000;
+  border-radius: 50%;
+}

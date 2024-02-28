@@ -1,0 +1,104 @@
+.chat-wrapper {
+  /* min-height: 89vh;
+  max-height: 89vh; */
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+.chats {
+  min-height: 80vh;
+  height: 91vh;
+
+  background-color: #282e33;
+  border-radius: 5px;
+}
+.sending-container {
+  /* text-align: center; */
+  display: flex;
+  gap: 5%;
+  height: 9vh;
+  padding: 10px;
+  background-color: #282e33;
+}
+.message-bar {
+  background-color: #282e33;
+  border: none;
+  padding: 5px;
+  width: 75%;
+  margin-left: 5%;
+  color: white;
+}
+.send-btn {
+  background-color: #282e33;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+}
+.send-btn:hover {
+  background-color: #353c43;
+}
+h3 {
+  text-align: center;
+  color: white;
+}
+p {
+  color: white;
+}
+.chat-display {
+  background: url("../../assets/chatbg.png");
+  /* background-size: cover; */
+  margin: 0px;
+  border-radius: 1px;
+  padding: 10px;
+  overflow-y: scroll;
+  height: 80vh;
+}
+.float-right {
+  margin-left: 70%;
+  list-style-type: none;
+}
+.float-left {
+  margin-right: 70%;
+  margin-left: 0px;
+  list-style-type: none;
+}
+.from-me {
+  background-color: rgb(20, 37, 2);
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border-bottom-right-radius: 0px;
+}
+.to-me {
+  background-color: rgb(184, 233, 133);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
+}
+.back-icon {
+  height: 30px;
+  margin: 15px;
+  margin-bottom: 0px;
+}
+span {
+  display: block;
+  margin-left: 2px;
+}
+.chat-header-wrapper {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+.user-infos {
+  text-align: center;
+  right: 0;
+  background-color: #282e33;
+  width: 180px;
+  position: absolute;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 100;
+  padding: 10px;
+}

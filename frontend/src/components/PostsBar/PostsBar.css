@@ -1,0 +1,77 @@
+.all-post-wrapper {
+  background: url("../../assets/chatbg.png");
+  background-color: #dfe5ea;
+  height: 100vh;
+  /* border-top: solid 1px gray; */
+  /* border-right: solid 1px gray; */
+}
+.post-wrapper {
+  overflow-y: scroll;
+  max-height: 99vh;
+}
+.contact-icon2 {
+  border-radius: 50%;
+  height: 30px;
+  margin-right: 15px;
+}
+.post-info {
+  background-color: #282e33;
+  color: white;
+  padding: 5px 10px;
+}
+.post {
+  padding: 10px 0px;
+  margin: 20px auto;
+  border: solid 1px rgb(121, 121, 121);
+  border-radius: 20px !important;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  background-color: #282e33;
+  border-bottom-left-radius: 0px !important;
+}
+.posted-image {
+  /* border-radius: 5px; */
+  width: 100%;
+}
+.reaction-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px;
+  margin-top: 10px;
+  text-align: center;
+  padding: 0px 5px;
+}
+.heart,
+.liked {
+  border-radius: 50%;
+  border: solid 1px gray;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  height: 35px;
+  padding: 5px;
+  color: white;
+  background-color: rgb(255, 255, 255);
+}
+.liked {
+  background-color: rgb(255, 0, 0);
+}
+.heart:hover {
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+.comment-bar {
+    background-color: #353C43;
+  width: 70%;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+.send {
+  border-radius: 50%;
+  /* border: solid 1px gray; */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+  height: 35px;
+  padding: 5px;
+  color: white;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}

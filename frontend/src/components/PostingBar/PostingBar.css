@@ -1,0 +1,85 @@
+.posting-bg {
+  height: 100vh;
+  background-color: #18191d;
+  padding: 0px;
+  padding-top: 10px;
+}
+
+.posting-wrapper {
+  background-color: #353c43;
+  text-align: center;
+  /* border: 1px solid rgb(199, 197, 197); */
+  color: white !important;
+  border-radius: 20px;
+  padding: 20px 40px;
+  margin: 0px 20px;
+  /* margin-top: 25%; */
+  box-shadow: inset 3px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.file-picker {
+  position: absolute;
+  left: 40%;
+  opacity: 0;
+}
+.plus-wrapper {
+  /* border: 1px solid rgb(199, 197, 197); */
+  border-radius: 10px;
+  width: fit-content;
+  padding: 8px 20px;
+  margin: 20px auto;
+  background-color: #18191d;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.4);
+  overflow: hidden !important;
+}
+.plus-wrapper:hover {
+  background-color: rgb(246, 242, 242);
+  border: 2px solid rgb(199, 197, 197);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.plus-icon {
+  height: 30px;
+}
+/* .post-image-container{
+  text-align: center !important;
+
+} */
+.caption-bar {
+  width: 300px;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 1px;
+}
+.caption-bar::placeholder {
+  color: #000000;
+}
+/* .caption-bar:focus:active{
+  border: none;
+} */
+.caption-bar:hover {
+  background-color: white;
+  transition: 0.5s;
+  opacity: 0.5;
+}
+.caption-bar:active {
+  background-color: transparent;
+  border: none;
+}
+.image-box {
+  border-radius: 1px;
+}
+.post-btn {
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #18191d;
+  color: aliceblue;
+  border: none;
+}
+.post-btn:hover {
+  background:radial-gradient( #353c43,#18191d);
+  /* border: #18191d solid 2px; */
+}

@@ -1,0 +1,26 @@
+.signup-wrapper {
+    height: 100vh;
+    color: white;
+    text-align: center;
+    padding-top: 20vh;
+    background-color: #282e33;
+  }
+  .signup-form{
+    border: solid 1px white;
+    border-radius: 15px;
+    width: 90%;
+    margin: auto;
+    padding: 25px;
+  }
+  .signup-form input,
+  .signup-form button {
+    margin: 5px;
+  }
+  .input-bar {
+    background-color: #353c43;
+    border: none;
+  }
+  .profile-image{
+    background-color: #353c43;
+    border: none !important;
+  }
